@@ -224,6 +224,39 @@ nav .logo::first-letter{
         margin-left: 10px;
     }
 }
+@media (max-width:480px){
+    .main{
+        height: calc(100vh - 150px);
+    }
+    nav{
+        height: 200px;
+        padding: 2px 0px;
+    }
+    nav .nav-links{
+        margin-top: -10px;
+        flex-direction: column;
+        gap: 8px;
+
+    }
+    .left{
+        margin: 0;
+        height: 400px;
+        margin-top: 200px;
+
+
+    }
+    .left h1{
+        font-size: 28px;
+    }
+    nav .social-links{
+        gap: 8px;
+        margin-top: -10px;
+    }
+    .right{
+        height: 400px;
+    }
+}
+
 
 /* General Section Styles */
 .customer-reviews-section {
@@ -311,8 +344,7 @@ nav .logo::first-letter{
 
 .food-order-section {
     max-width: 1200px;
-    margin-top: -35px;
-    padding: 40px 20px;
+    padding:20px;
     text-align: center;
 }
 
